@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+.mdi:before,
 .mdi {
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
@@ -14,6 +15,8 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
+
+
 
 .mdi-access-point:before {
   content: "\F002";
@@ -6717,4 +6720,17 @@
   transform: scaleY(-1);
   filter: FlipV;
   -ms-filter: "FlipV";
+}
+
+.mdi-page-layout-sidebar-left:before {
+  content: "\F6FC";
+}
+
+
+.mdi-page-layout-sidebar-right:before {
+  content: "\F6FD";
+}
+
+.mdi-page-layout-footer:before {
+  content: "\F6FA";
 }
