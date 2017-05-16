@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "grim": "^2.0.0",
-    "jquery": "^3.0.0"
+    "jquery": "^3.0.0",
+    "fs-promise": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
